@@ -1,0 +1,56 @@
+/* Universal Selector */
+* {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+/* Type Selectors */
+
+h2 {
+    font-weight: 800;
+}
+
+
+/* Class Selectors */
+
+.Intro {
+    color: rgb(95, 20, 85)
+}
+
+
+/* ID Selectors */
+#Titans {
+    color: rgb(139, 20, 16)
+}
+
+#Hunters {
+    color: rgb(6, 56, 6)
+}
+
+#Warlocks {
+    color: rgb(126, 98, 5)
+}
+
+/* Relational Selectors */
+
+h2~ol {
+
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+/* Multiple Selectors/Combination Selectors */
+
+p, h1, h2 {
+    color:rgb(19, 19, 54);
+    line-height:1.5em;
+}
+
+/* Attribute Selectors */
+
+a[href]{
+    font-weight:900;
+    color:rgb(26, 85, 153);
+    font-style:italic;
+}
