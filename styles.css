@@ -2,9 +2,17 @@
 * {
     color: rgb(0, 0, 0);
     font-family: sans-serif;
+    background: rgb(217, 213, 253)
 }
 
 /* Type Selectors */
+
+
+h1 {
+    border-bottom: .3em solid rgb(19, 19, 54);
+    padding-top: .5em;
+}
+
 
 h2 {
     font-weight: 800;
@@ -20,16 +28,62 @@ h2 {
 
 /* ID Selectors */
 #Titans {
-    color: rgb(139, 20, 16)
+    color: rgb(139, 20, 16);
+    border-top: .25em solid rgb(139, 20, 16);
+    padding-left: 10%;
+    background-image: linear-gradient(to top right, rgb(88, 241, 113) 80%, rgb(245, 81, 16) 50%)
 }
 
 #Hunters {
-    color: rgb(6, 56, 6)
+    color: rgb(6, 56, 6);
+    border-top: .25em solid rgb(6, 56, 6);
+    padding-left: 10%;
+    background-image: linear-gradient(to top right, rgb(150, 18, 202) 80%, rgb(209, 103, 32) 50%)
 }
 
 #Warlocks {
-    color: rgb(126, 98, 5)
+    color: rgb(100, 77, 1);
+    border-top: .25em solid rgb(126, 98, 5);
+    padding-left: 10%;
+    background-image: linear-gradient(to top right, rgb(236, 133, 123) 80%, rgb(255, 219, 121) 50%)
 }
+
+#image {
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 5%;
+}
+
+#classes {
+    width: 600px;
+    float: right;
+    padding-right: 400px;
+
+}
+
+
+#main {
+    width: 800px;
+    float: left;
+}
+
+#year0 {
+    float: left;
+    max-width: 25%;
+}
+
+#year1-4 {
+    float: left;
+    max-width: 25%;
+
+}
+
+#year5 {
+    float: left;
+    max-width: 25%;
+}
+
+
 
 /* Relational Selectors */
 
@@ -38,19 +92,28 @@ h2~ol {
     color: rgb(0, 0, 0);
     font-weight: 600;
     line-height: 1.5em;
+    padding-left: 10%;
+
 }
+
+
 
 /* Multiple Selectors/Combination Selectors */
 
-p, h1, h2 {
-    color:rgb(19, 19, 54);
-    line-height:1.5em;
+p,
+h1,
+h2 {
+    color: rgb(19, 19, 54);
+    line-height: 1.5em;
+    padding-left: 5%;
+    max-width: 1000px;
+
 }
 
 /* Attribute Selectors */
 
-a[href]{
-    font-weight:900;
-    color:rgb(26, 85, 153);
-    font-style:italic;
+a[href] {
+    font-weight: 900;
+    color: rgb(26, 85, 153);
+    font-style: italic;
 }
