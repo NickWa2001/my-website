@@ -1,0 +1,42 @@
+1. "Daniel Alvarado
+May 27 3:08pm
+Reply from Daniel Alvarado
+
+Two things I enjoyed about your website is that your page layouts are consistent, and the content is easily understandable/readable. I checked for page breaks but all the pages resized well.
+
+Three things you could fix/improve:
+
+1. The first thing I noted was that your copy right could be moved to the bottom of the page in your footer.
+
+2. The second is that I noticed there was some extra spacing between Titan class recommendations and Synthoceps.
+
+3. Third is that there seems to be a lot of empty space in your Backstory and Nightfalls pages, maybe add some images.
+
+****Fixed copyright symbol, fixed spacing, added lots of images and styling to the Backstory page.****
+
+2. Moises Orta-Castillo
+May 26 11:22pm
+Reply from Moises Orta-Castillo
+
+Nice layout and responsive site Nicholas.  Lots of information and a good amount of detail. It looks like all you need are a few pictures and your all done with the site. 
+Good job so far I’m looking forward to the final product. 
+
+****Added pictures to Backstory page.****
+
+3. Brandon Ulassin
+May 27 9:28pm
+Reply from Brandon Ulassin
+
+Hi Nicholas, I like how your website is easy to navigate, and your index page clearly defines what your website is about. Here are some suggestions for your site:
+
+1. The copyright information on the home page isn't at the bottom; I think your flex box is moving your footer up.
+
+2. The "Nightfalls" page looks really good at most screen sizes, but around 1000px and larger the information looks a little too spaced out.
+
+3. I liked how you formatted the class recommendations and farming strategies, but I feel like they could go on their own page so the home page doesn't get too cluttered.
+
+Great job so far!
+
+****Fixed copyright information****
+
+
