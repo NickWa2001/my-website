@@ -160,7 +160,7 @@ img.backstoryImg {
 
 /*New Expansion Page*/
 #NewExp {
-    background-image: url(/images/finalShape.jpg);
+    background-image: url(../images/finalShape.jpg);
     background-size: 100%;
 }
 
