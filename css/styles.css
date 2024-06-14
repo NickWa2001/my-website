@@ -1,0 +1,296 @@
+
+/*Background image on index, backstory, nightfalls*/
+body {
+    background-image: url(/images/travelercity.png);
+}
+
+
+/*Imported font*/
+
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Link Hover Effect*/
+a:hover {
+    color: rgb(187, 17, 187);
+}
+
+/*Index/Home page*/
+
+#introTextIndex {
+    background-color: #a09d9d;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 2%;
+    font-size: 1.3em;
+    text-align: left;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#introTextIndex h1 {
+    text-align: center;
+}
+
+#introTextIndex p {
+    font-size: 1.5em;
+}
+
+
+/*Image formatting on main page*/
+
+#introTextIndex img {
+    max-width: 20%;
+    margin: 10%;
+    float: right;
+}
+
+
+
+/*Footer size*/
+footer {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(100, 24, 24);
+}
+
+
+/*Backstory (secondary page) formatting begins here*/
+
+
+/*Backstory page*/
+div#backstory {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Additional styling for paragraphs with class BackstoryBody */
+p.BackstoryBody {
+    font-size: 1.2em;
+}
+
+#introBox {
+    background-color: #a09d9d;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 2%;
+    font-size: 2em;
+    text-align: center;
+}
+
+#year0box {
+    background-color: #a09d9d;
+    padding: 3%;
+    padding-bottom: 10%;
+    margin: 3%;
+    margin-bottom: 10%;
+    border-radius: 2%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#year1-4box {
+    background-color: #a09d9d;
+    padding: 3%;
+    padding-bottom: 10%;
+    margin: 3%;
+    margin-bottom: 10%;
+    border-radius: 2%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#year5box {
+    background-color: #a09d9d;
+    padding: 3%;
+    padding-bottom: 10%;
+    margin: 3%;
+    margin-bottom: 10%;
+    border-radius: 2%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+/* Additional styling for images */
+img.backstoryImg {
+    max-width: 40%;
+    align-items: center;
+    float: right;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+/*Nightfalls page begins here*/
+#nfVidHeader {
+    background-image: linear-gradient(#fcba04, #e78b12);
+    margin-bottom: 2fr;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1.5%;
+}
+
+
+#nfVids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 5%;
+}
+
+.nfvideo {
+    background-image: linear-gradient(#fcba04, #412909);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.nfvideo img {
+    max-width: 100%;
+    font-size: 1.3em;
+}
+
+/*New Expansion Page*/
+#NewExp {
+    background-image: url(/images/finalShape.jpg);
+    background-size: 100%;
+}
+
+#finalIntro {
+    background-image: linear-gradient(#732c18, #9dc4c9);
+    padding: 3%;
+    margin: 3%;
+    border-radius: 2%;
+    font-size: 1.7em;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+#CurrentExp {
+    background-image: linear-gradient(#9dc4c9, #732c18);
+    padding: 3%;
+    margin: 3% auto;
+    border-radius: 2%;
+    font-size: 1.3em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    max-width: 70%;
+    font-size: 1.7em;
+}
+
+
+#promoFinal {
+    margin: 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#promoFinal::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+
+#promoFinal iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Navigation Menu + Flexbox*/
+#nav_menu {
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_menu ul li {
+    flex-basis: 25%;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: rgb(90, 90, 90);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-right: 2px solid white;
+    font-family: 'Share Tech Mono', Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#nav_menu ul li a:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+#nav_menu ul li a.lastItem {
+    border-right: none;
+}
+
+main {
+    clear: left;
+}
+
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 650px) {
+    #nav_menu ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav_menu ul li a {
+        border-right: none;
+        border-bottom: 2px solid white;
+    }
+
+    #nav_menu ul li a.lastItem {
+        border-bottom: none;
+    }
+
+    #nfpage {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-items: start;
+    }
+
+    #classesBox {
+        background-color: #999696;
+        padding: 3%;
+        margin-right: 6%;
+        margin-top: 3%;
+        border-radius: 2%;
+        font-size: 1.1em;
+        text-align: left;
+        float: none;
+        max-width: 30%;
+    }
+    
+
+}
